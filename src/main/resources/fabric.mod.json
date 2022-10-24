@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "buildcraft_revolution",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "BuildCraft Revolution",
+  "description": "Buildcraft recreation for Fabric and newest versions of Minecraft",
   "authors": [
-    "Me!"
+    "Allerek",
+    "RaDzik"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Allerek/buildcraft-revolution"
   },
 
-  "license": "CC0-1.0",
+  "license": "MPL-2.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.buildcraftr.buildcraft_revolution.BuildcraftRevolution"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "buildcraft_revolution.mixins.json"
   ],
 
   "depends": {
