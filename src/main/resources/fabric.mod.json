@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "net.buildcraftr.buildcraft_revolution.BuildcraftRevolution"
+    ],
+    "client" : [
+      "net.buildcraftr.buildcraft_revolution.BuildcraftRevolutionClient"
     ]
   },
   "mixins": [
@@ -31,11 +34,7 @@
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
     "minecraft": "~1.19",
-    "java": ">=17",
-    "bclib": ">=2.1.0"
-  },
-  "breaks": {
-    "bclib": "<2.0.6"
+    "java": ">=17"
   },
   "suggests": {
     "another-mod": "*"

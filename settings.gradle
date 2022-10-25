@@ -8,3 +8,10 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+//Change the next line to disable local BCLib loading
+def allowLocalLibUse = true
+
+//When true, the local BCLib is also used in commandline builds
+def allowLocalLibInConsoleMode = false
+
