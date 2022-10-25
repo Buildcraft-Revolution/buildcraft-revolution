@@ -2,7 +2,7 @@
   "replace": false,
   "values":
   [
-    "buildcraft_revolution:oil_still",
+    "buildcraft_revolution:oil",
     "buildcraft_revolution:oil_flow"
   ]
 }

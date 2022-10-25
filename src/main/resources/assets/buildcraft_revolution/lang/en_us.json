@@ -2,5 +2,6 @@
   "itemGroup.buildcraft_revolution.bcblocks": "BuildCraft Blocks",
   "block.buildcraft_revolution.quarry": "Quarry",
   "block.buildcraft_revolution.pump": "Pump",
+  "block.buildcraft_revolution.oil": "Oil",
   "item.buildcraft_revolution.oil_bucket": "Oil Bucket"
 }

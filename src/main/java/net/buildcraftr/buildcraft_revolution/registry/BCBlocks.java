@@ -20,7 +20,6 @@ public class BCBlocks{
     //Quarry
     public static final Block BC_QUARRY = registerBlock("quarry", new QuarryBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_PUMP = registerBlock("pump", new PumpBlock(), CreativeTabs.TAB_BLOCKS);
-    public static final Block BC_OIL_BLOCK = registerBlock("oil", new OilFluidBlock(BCFluids.STILL_BC_OIL, FabricBlockSettings.copy(Blocks.WATER)), CreativeTabs.TAB_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         BuildcraftRevolution.LOGGER.info("registerBlock");

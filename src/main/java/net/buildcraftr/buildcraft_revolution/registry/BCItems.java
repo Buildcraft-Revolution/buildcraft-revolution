@@ -14,7 +14,7 @@ public class BCItems {
         BuildcraftRevolution.LOGGER.info("Registering Items for " + BuildcraftRevolution.MOD_ID);
     }
 
-    private static Item registerItem(String name, Item item, ItemGroup group) {
+    private static Item registerItem(String name, Item item) {
         BuildcraftRevolution.LOGGER.info("registerBlock");
         return Registry.register(Registry.ITEM, new Identifier(BuildcraftRevolution.MOD_ID, name), item);
     }
