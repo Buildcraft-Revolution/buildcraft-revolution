@@ -30,6 +30,6 @@ public class BCFluids {
 
         //Buckets
         BC_OIL_BUCKET = Registry.register(Registry.ITEM, new Identifier(BuildcraftRevolution.MOD_ID, "oil_bucket"),
-                new BucketItem(BCFluids.STILL_BC_OIL, new FabricItemSettings().group(CreativeTabs.TAB_BLOCKS).recipeRemainder(Items.BUCKET).maxCount(1)));
+                new BucketItem(BCFluids.STILL_BC_OIL, new FabricItemSettings().group(CreativeTabs.TAB_ITEMS).recipeRemainder(Items.BUCKET).maxCount(1)));
     }
 }

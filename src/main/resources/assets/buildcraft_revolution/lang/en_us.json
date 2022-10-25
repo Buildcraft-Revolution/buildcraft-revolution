@@ -1,6 +1,16 @@
 {
   "itemGroup.buildcraft_revolution.bcblocks": "BuildCraft Blocks",
+  "itemGroup.buildcraft_revolution.bcitems": "BuildCraft Items",
+
+  "item.buildcraft_revolution.gear_wood": "Wooden Gear",
+  "item.buildcraft_revolution.gear_stone": "Stone Gear",
+  "item.buildcraft_revolution.gear_iron": "Iron Gear",
+  "item.buildcraft_revolution.gear_gold": "Golden Gear",
+  "item.buildcraft_revolution.gear_diamond": "Diamond Gear",
+  "item.buildcraft_revolution.wrench": "Wrench",
+
   "block.buildcraft_revolution.quarry": "Quarry",
   "block.buildcraft_revolution.pump": "Pump",
+
   "item.buildcraft_revolution.oil_bucket": "Oil Bucket"
 }
