@@ -11,10 +11,7 @@
 
   "block.buildcraft_revolution.quarry": "Quarry",
   "block.buildcraft_revolution.pump": "Pump",
-<<<<<<< HEAD
   "block.buildcraft_revolution.oil": "Oil",
-=======
 
->>>>>>> a832ad29e21b621cc3fb90f3311ac2296a2aeefd
   "item.buildcraft_revolution.oil_bucket": "Oil Bucket"
 }
