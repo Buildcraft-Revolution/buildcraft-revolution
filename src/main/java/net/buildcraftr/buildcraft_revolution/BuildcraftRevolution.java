@@ -20,7 +20,7 @@ public class BuildcraftRevolution implements ModInitializer {
 		// Proceed with mild caution.
 		BCFluids.registerModFluids();
 		BCBlocks.registerModBlocks();
-		BCItems.register();
+		BCItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

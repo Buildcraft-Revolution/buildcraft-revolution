@@ -19,7 +19,7 @@ public class BCItems {
 
     public static final Item BC_WRENCH = registerItem("wrench", new Wrench(new FabricItemSettings().group(CreativeTabs.TAB_ITEMS)));
 
-    public static void register()
+    public static void registerModItems()
     {
         BuildcraftRevolution.LOGGER.info("Registering Items for " + BuildcraftRevolution.MOD_ID);
     }
