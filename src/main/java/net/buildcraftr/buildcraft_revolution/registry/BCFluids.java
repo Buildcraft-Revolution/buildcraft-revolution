@@ -21,6 +21,7 @@ public class BCFluids {
     public static Item BC_OIL_BUCKET;
 
     public static void registerModFluids(){
+        BuildcraftRevolution.LOGGER.info("Registering Fluids for " + BuildcraftRevolution.MOD_ID);
         //Fluids
         STILL_BC_OIL = Registry.register(Registry.FLUID,
                 new Identifier(BuildcraftRevolution.MOD_ID, "oil"), new OilFluid.Still());

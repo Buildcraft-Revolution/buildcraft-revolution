@@ -38,45 +38,4 @@ public class BCBlocks{
         BuildcraftRevolution.LOGGER.info("Registering ModBlocks for " + BuildcraftRevolution.MOD_ID);
     }
 
-//    public static Block registerBlock(ResourceLocation id, Block block) {
-//        if (!Configs.BLOCK_CONFIG.getBooleanRoot(id.getPath(), true)) {
-//            return block;
-//        }
-//        getBlockRegistry().register(id, block);
-//        return block;
-//    }
-
-//    @SafeVarargs
-//    public static Block registerBlock(String name, Block block, TagKey<Block>... tags) {
-//        BuildcraftRevolution.LOGGER.info("registerBlock");
-//        if (Configs.BLOCK_CONFIG.getBoolean("blocks", name, true)) {
-//            BuildcraftRevolution.LOGGER.info("registerBlock true");
-//            registerBlockDirectly(name, block);
-//            if (tags.length > 0) {
-//                BuildcraftRevolution.LOGGER.info("TagManager add");
-//                TagManager.BLOCKS.add(block, tags);
-//            }
-//        }
-//        return block;
-//    }
-
-//    public static void registerBlockDirectly(String name, Block block) {
-//        registerBlock(name, block, true);
-//        BuildcraftRevolution.LOGGER.info("registerBlockDirectly");
-//    }
-
-//    @SafeVarargs
-//    private static <B extends Block> B registerBlock(String name, B block, boolean hasItem, TagKey<Block>... tags) {
-//        final BlockRegistry blockRegistry = getBlockRegistry();
-//        final ResourceLocation location = new ResourceLocation(BuildcraftRevolution.MOD_ID, name);
-//        if (hasItem) {
-//            blockRegistry.register(location, block);
-//        } else {
-//            blockRegistry.registerBlockOnly(location, block);
-//        }
-//        if (tags.length > 0) {
-//            TagManager.BLOCKS.add(block, tags);
-//        }
-//        return block;
-//    }
 }
