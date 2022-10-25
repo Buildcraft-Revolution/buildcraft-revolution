@@ -36,6 +36,6 @@ public class BCFluids {
                 new Identifier(BuildcraftRevolution.MOD_ID,"oil_block"), new OilFluidBlock(STILL_BC_OIL, FabricBlockSettings.copy(Blocks.WATER)){});
         //Buckets
         BC_OIL_BUCKET = Registry.register(Registry.ITEM, new Identifier(BuildcraftRevolution.MOD_ID, "oil_bucket"),
-                new BucketItem(BCFluids.STILL_BC_OIL, new FabricItemSettings().group(CreativeTabs.TAB_BLOCKS).recipeRemainder(Items.BUCKET).maxCount(1)));
+                new BucketItem(BCFluids.STILL_BC_OIL, new FabricItemSettings().group(CreativeTabs.TAB_ITEMS).recipeRemainder(Items.BUCKET).maxCount(1)));
     }
 }
