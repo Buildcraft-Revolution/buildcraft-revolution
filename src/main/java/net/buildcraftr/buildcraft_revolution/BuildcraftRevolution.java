@@ -2,6 +2,7 @@ package net.buildcraftr.buildcraft_revolution;
 
 import net.buildcraftr.buildcraft_revolution.registry.BCFluids;
 import net.buildcraftr.buildcraft_revolution.registry.BCBlocks;
+import net.buildcraftr.buildcraft_revolution.registry.BCItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +20,7 @@ public class BuildcraftRevolution implements ModInitializer {
 		// Proceed with mild caution.
 		BCFluids.registerModFluids();
 		BCBlocks.registerModBlocks();
+		BCItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
