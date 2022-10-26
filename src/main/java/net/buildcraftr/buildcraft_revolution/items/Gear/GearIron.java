@@ -1,4 +1,4 @@
-package net.buildcraftr.buildcraft_revolution.items;
+package net.buildcraftr.buildcraft_revolution.items.Gear;
 
 import net.minecraft.item.Item;
 

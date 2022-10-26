@@ -2,9 +2,9 @@ package net.buildcraftr.buildcraft_revolution.items;
 
 import net.minecraft.item.Item;
 
-public class GearWood extends Item{
+public class PipeSealant extends Item{
 
-    public GearWood(Settings settings) {
+    public PipeSealant(Settings settings) {
         super(settings);
     }
 
