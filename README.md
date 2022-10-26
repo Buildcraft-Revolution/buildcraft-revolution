@@ -4,7 +4,7 @@ Buildcraft Revolution is fan-made project of Buildcraft made on Fabric for newes
 
 [Origin Buildcraft Repo](https://github.com/BuildCraft/BuildCraft "Origin Buildcraft Repo")
 
-![Discord Banner 2](https://discordapp.com/api/guilds/1034811183473119272/widget.png?style=banner2)
+[![Discord Banner 2](https://discordapp.com/api/guilds/1034811183473119272/widget.png?style=banner2)](https://discord.gg/2RrHhsDYGM)
 ------------
 ## Why?
 Because we all love Buildcraft! Lack of this mod on newer versions causes need to play on 1.12.2, so we can't enjoy all new Minecraft features without lot of mods.
