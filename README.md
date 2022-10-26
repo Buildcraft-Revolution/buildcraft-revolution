@@ -1,7 +1,7 @@
 ![bcrevolution](https://user-images.githubusercontent.com/12304071/198047214-e2b1584a-61da-4655-ba42-5e23761da0fb.png)
 
 Buildcraft Revolution is fan-made project of Buildcraft made on Fabric for newest Minecraft versions. Currently the project is to rewrite the code using small parts of origin repo to get full funcionalities of Buildcraft! Later on, we want to introduce some of our ideas to improve this mode even more.
-Discord should be created in near future to keep you up-to-date.
+
 [Origin Buildcraft Repo](https://github.com/BuildCraft/BuildCraft "Origin Buildcraft Repo")
 
 ![Discord Banner 2](https://discordapp.com/api/guilds/1034811183473119272/widget.png?style=banner2)
