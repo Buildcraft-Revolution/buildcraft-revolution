@@ -1,9 +1,7 @@
 package net.buildcraftr.buildcraft_revolution.registry;
 
 import net.buildcraftr.buildcraft_revolution.BuildcraftRevolution;
-import net.buildcraftr.buildcraft_revolution.blocks.OilFluidBlock;
-import net.buildcraftr.buildcraft_revolution.blocks.PumpBlock;
-import net.buildcraftr.buildcraft_revolution.blocks.QuarryBlock;
+import net.buildcraftr.buildcraft_revolution.blocks.*;
 import net.buildcraftr.buildcraft_revolution.tab.CreativeTabs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -20,6 +18,10 @@ public class BCBlocks{
     //Quarry
     public static final Block BC_QUARRY = registerBlock("quarry", new QuarryBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_PUMP = registerBlock("pump", new PumpBlock(), CreativeTabs.TAB_BLOCKS);
+
+    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS);
+
+    public static final Block BC_MINING_WELL = registerBlock("mining_well", new MiningWellBlock(), CreativeTabs.TAB_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         BuildcraftRevolution.LOGGER.info("registerBlock");
