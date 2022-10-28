@@ -36,6 +36,7 @@
   "block.buildcraft_revolution.quarry": "Quarry",
   "block.buildcraft_revolution.pump": "Pump",
   "block.buildcraft_revolution.oil": "Oil",
+  "block.buildcraft_revolution.auto_workbench": "Auto Workbench",
 
   "item.buildcraft_revolution.oil_bucket": "Oil Bucket"
 }

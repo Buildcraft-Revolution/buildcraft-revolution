@@ -19,6 +19,7 @@ public class BCBlocks{
     //Misc
     public static final Block BC_QUARRY = registerBlock("quarry", new QuarryBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_PUMP = registerBlock("pump", new PumpBlock(), CreativeTabs.TAB_BLOCKS);
+    public static final Block BC_AUTO_WORKBENCH = registerBlock("auto_workbench", new AutoWorkbench(), CreativeTabs.TAB_BLOCKS);
 
     public static final Block BC_WOOD_ITEM = registerBlock("pipe_wood_transport", new WoodItemBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS, false);
