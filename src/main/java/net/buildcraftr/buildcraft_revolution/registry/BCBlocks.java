@@ -21,13 +21,20 @@ public class BCBlocks{
     public static final Block BC_PUMP = registerBlock("pump", new PumpBlock(), CreativeTabs.TAB_BLOCKS);
 
     public static final Block BC_WOOD_ITEM = registerBlock("pipe_wood_transport", new WoodItemBlock(), CreativeTabs.TAB_BLOCKS);
-    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS);
+    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS, false);
 
     public static final Block BC_MINING_WELL = registerBlock("mining_well", new MiningWellBlock(), CreativeTabs.TAB_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         BuildcraftRevolution.LOGGER.info("registerBlock");
         registerBlockItem(name, block, group);
+        return Registry.register(Registry.BLOCK, new Identifier(BuildcraftRevolution.MOD_ID, name), block);
+    }
+
+    private static Block registerBlock(String name, Block block, ItemGroup group, boolean registerItem) {
+        BuildcraftRevolution.LOGGER.info("registerBlock");
+        if(registerItem)
+            registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(BuildcraftRevolution.MOD_ID, name), block);
     }
 

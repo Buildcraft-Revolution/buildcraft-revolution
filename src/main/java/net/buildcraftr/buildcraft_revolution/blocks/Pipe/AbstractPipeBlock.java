@@ -25,7 +25,13 @@ public class AbstractPipeBlock extends ConnectingBlock {
 
     public BlockState withConnectionProperties(BlockView world, BlockPos pos) {
         BlockState blockState = world.getBlockState(pos.down());
-        return this.getDefaultState().with(DOWN, blockState.isOf(this));
+        BlockState blockState2 = world.getBlockState(pos.up());
+        BlockState blockState3 = world.getBlockState(pos.north());
+        BlockState blockState4 = world.getBlockState(pos.east());
+        BlockState blockState5 = world.getBlockState(pos.south());
+        BlockState blockState6 = world.getBlockState(pos.west());
+        return (BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.getDefaultState().with(DOWN, blockState.isOf(this))).with(UP, blockState2.isOf(this))).with(NORTH, blockState3.isOf(this))).with(EAST, blockState4.isOf(this))).with(SOUTH, blockState5.isOf(this))).with(WEST, blockState6.isOf(this));
+
     }
 
     @Override
@@ -34,7 +40,7 @@ public class AbstractPipeBlock extends ConnectingBlock {
             world.createAndScheduleBlockTick(pos, this, 1);
             return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
-        boolean bl = neighborState.isOf(this) || neighborState.isOf(BCBlocks.BC_WOOD_ITEM) || direction == Direction.DOWN;
+        boolean bl = neighborState.isOf(this) || neighborState.isOf(BCBlocks.BC_WOOD_ITEM);
         return state.with(FACING_PROPERTIES.get(direction), bl);
     }
 
