@@ -15,7 +15,7 @@ public class AbstractPipeBlock extends ConnectingBlock {
 
     public AbstractPipeBlock(FabricBlockSettings settings) {
         super(0.3125f, settings);
-        this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(NORTH, false)).with(EAST, false)).with(SOUTH, false)).with(WEST, false)).with(UP, false)).with(DOWN, false));
+        this.setDefaultState(this.stateManager.getDefaultState().with(NORTH, false).with(EAST, false).with(SOUTH, false).with(WEST, false).with(UP, false).with(DOWN, false));
     }
 
     @Override
@@ -35,7 +35,7 @@ public class AbstractPipeBlock extends ConnectingBlock {
             return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
         boolean bl = neighborState.isOf(this) || neighborState.isOf(BCBlocks.BC_WOOD_ITEM) || direction == Direction.DOWN;
-        return (BlockState)state.with((Property)FACING_PROPERTIES.get(direction), bl);
+        return state.with(FACING_PROPERTIES.get(direction), bl);
     }
 
     @Override

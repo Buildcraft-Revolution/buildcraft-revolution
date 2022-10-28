@@ -4,6 +4,7 @@ import net.buildcraftr.buildcraft_revolution.BuildcraftRevolution;
 import net.buildcraftr.buildcraft_revolution.blocks.Pipe.Transport.WoodItemBlock;
 import net.buildcraftr.buildcraft_revolution.blocks.PumpBlock;
 import net.buildcraftr.buildcraft_revolution.blocks.QuarryBlock;
+import net.buildcraftr.buildcraft_revolution.blocks.*;
 import net.buildcraftr.buildcraft_revolution.tab.CreativeTabs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
@@ -19,9 +20,11 @@ public class BCBlocks{
     public static final Block BC_QUARRY = registerBlock("quarry", new QuarryBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_PUMP = registerBlock("pump", new PumpBlock(), CreativeTabs.TAB_BLOCKS);
 
-    //Transport Pipe
-    //public static final Block BC_WOOD_ITEM = registerBlock("pipe_wood_transport", new WoodItemBlock(), CreativeTabs.TAB_BLOCKS);
     public static final Block BC_WOOD_ITEM = registerBlock("pipe_wood_transport", new WoodItemBlock(), CreativeTabs.TAB_BLOCKS);
+    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS);
+
+    public static final Block BC_MINING_WELL = registerBlock("mining_well", new MiningWellBlock(), CreativeTabs.TAB_BLOCKS);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         BuildcraftRevolution.LOGGER.info("registerBlock");
         registerBlockItem(name, block, group);

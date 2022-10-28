@@ -3,7 +3,6 @@ package net.buildcraftr.buildcraft_revolution.blocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.Material;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.sound.BlockSoundGroup;
@@ -12,10 +11,9 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.math.Direction;
 
-import java.awt.*;
+public class MiningWellBlock extends Block {
 
-public class QuarryBlock extends HorizontalFacingBlock {
-    public QuarryBlock() {
+    public MiningWellBlock() {
         super(FabricBlockSettings
                 .of(Material.METAL)
                 .hardness(10f)
