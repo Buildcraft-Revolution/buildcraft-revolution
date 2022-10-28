@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    " B ",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "buildcraft_revolution:gear_stone"
+    }
+  },
+  "result": {
+    "item": "buildcraft_revolution:wrench",
+    "count": 1
+  }
+}
