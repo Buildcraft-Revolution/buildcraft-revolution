@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "buildcraft_revolution:gear_wood"
+    }
+  },
+  "result": {
+    "item": "buildcraft_revolution:gear_stone",
+    "count": 1
+  }
+}

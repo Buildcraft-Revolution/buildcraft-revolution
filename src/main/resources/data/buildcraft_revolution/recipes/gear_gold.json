@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "gBg",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "buildcraft_revolution:gear_iron"
+    }
+  },
+  "result": {
+    "item": "buildcraft_revolution:gear_gold",
+    "count": 1
+  }
+}

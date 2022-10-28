@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "buildcraft_revolution:gear_gold"
+    }
+  },
+  "result": {
+    "item": "buildcraft_revolution:gear_diamond",
+    "count": 1
+  }
+}
