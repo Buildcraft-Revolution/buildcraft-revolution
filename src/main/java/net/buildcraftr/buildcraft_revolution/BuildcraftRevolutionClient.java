@@ -1,5 +1,6 @@
 package net.buildcraftr.buildcraft_revolution;
 
+import net.buildcraftr.buildcraft_revolution.registry.BCBlocks;
 import net.buildcraftr.buildcraft_revolution.registry.BCFluids;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -24,7 +25,6 @@ public class BuildcraftRevolutionClient implements ClientModInitializer {
             registry.register(new Identifier(BuildcraftRevolution.MOD_ID,"fluid/oil_still"));
             registry.register(new Identifier(BuildcraftRevolution.MOD_ID,"fluid/oil_flow"));
         });
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
-                BCFluids.STILL_BC_OIL, BCFluids.FLOWING_BC_OIL);
+        BlockRenderLayerMap.INSTANCE.putBlock(BCBlocks.BC_WOOD_ITEM, RenderLayer.getTranslucent());
     }
 }

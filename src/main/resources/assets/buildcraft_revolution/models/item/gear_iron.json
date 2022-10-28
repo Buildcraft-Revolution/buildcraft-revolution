@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buildcraft_revolution:item/gear_iron"
+    "layer0": "buildcraft_revolution:item/gear/gear_iron"
   }
 }
