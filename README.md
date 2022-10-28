@@ -1,5 +1,10 @@
 ![bcrevolution](https://user-images.githubusercontent.com/12304071/198047214-e2b1584a-61da-4655-ba42-5e23761da0fb.png)
 
+# Animation Branch (Made by Diztend)
+The branch for making block animations with GeckoLib.
+
+---
+
 Buildcraft Revolution is fan-made project of Buildcraft made on Fabric for newest Minecraft versions. Currently the project is to rewrite the code using small parts of origin repo to get full funcionalities of Buildcraft! Later on, we want to introduce some of our ideas to improve this mode even more.
 
 [Origin Buildcraft Repo](https://github.com/BuildCraft/BuildCraft "Origin Buildcraft Repo")
