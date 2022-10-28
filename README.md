@@ -1,7 +1,9 @@
 ![bcrevolution](https://user-images.githubusercontent.com/12304071/198047214-e2b1584a-61da-4655-ba42-5e23761da0fb.png)
 
 # Animation Branch (Made by Diztend)
-The branch for making block animations with GeckoLib.
+The branch for making block animations with GeckoLib. 
+
+Please rebase this on the newest 1.19 branch if possible
 
 ---
 
