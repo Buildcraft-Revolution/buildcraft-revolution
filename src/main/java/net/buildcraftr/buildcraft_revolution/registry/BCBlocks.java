@@ -22,7 +22,7 @@ public class BCBlocks{
     public static final Block BC_AUTO_WORKBENCH = registerBlock("auto_workbench", new AutoWorkbench(), CreativeTabs.TAB_BLOCKS);
 
     public static final Block BC_WOOD_ITEM = registerBlock("pipe_wood_transport", new WoodItemBlock(), CreativeTabs.TAB_BLOCKS);
-    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new PumpTubeBlock(), CreativeTabs.TAB_BLOCKS, false);
+    public static final Block BC_PUMP_TUBE = registerBlock("pump_tube", new TubeBlock(BC_PUMP), CreativeTabs.TAB_BLOCKS, false);
 
     public static final Block BC_MINING_WELL = registerBlock("mining_well", new MiningWellBlock(), CreativeTabs.TAB_BLOCKS);
 
